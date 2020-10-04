@@ -13,10 +13,18 @@
 ### 下载&配置星之子  
 这是星之子的主程序，星之子的本源，
 1. 前往[Releases](https://github.com/Lparksi/Sohn_des_Sterns/releases) 页面下载最新版的源码。  
-2. 下载&安装对应平台的Python(3.7+)
+2. 下载&安装对应平台的Python(3.7+)  
+::: details 可能会遇到的问题
+遇到无法正常安装nonebot库请更新pip3并切换至国内[清华镜像](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)
+```sh
+pip install pip -U
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+更多信息参见[issues#1](https://github.com/Lparksi/Sohn_des_Sterns/issues/1)
+:::
 3. 在终端(bash,cmd,PowerShell等)执行如下命令
 ```shell
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 4. 执行启动命令 | 星之本源
 ```shell

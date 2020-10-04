@@ -6,10 +6,12 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
+      { text: 'Plugins', link: '/plugins/'},
       { text: 'Blog', link: 'https://parksi.top' },
     ],
     sidebar: [
         ['/guide/', 'Home Page'],
+        ['/plugins/', 'Plugins'],
       ],
   }
 }
