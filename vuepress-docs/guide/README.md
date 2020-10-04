@@ -30,6 +30,11 @@ pip3 install -r requirements.txt
 ```shell
 python3 bot.py
 ```  
+
+::: danger 更详细的教程！  
+查看 [此处](https://sds.parksi.top/guide/config.html#%E9%85%8D%E7%BD%AE-%E5%B0%8F%E7%99%BD%E5%90%91)
+:::
+
 ::: danger 此页面可能已过期
 星之子仍处于高速开发期，具体功能可能已与其描述 **大相径庭** ！
 :::

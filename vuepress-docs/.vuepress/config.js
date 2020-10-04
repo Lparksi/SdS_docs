@@ -12,6 +12,7 @@ module.exports = {
     sidebar: [
         ['/guide/', 'Home Page'],
         ['/plugins/', 'Plugins'],
+        ['/guide/config', 'Config'],
       ],
   }
 }
