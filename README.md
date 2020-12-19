@@ -2,11 +2,11 @@
 description: 文档施工中...
 ---
 
-# Initial page
+# 欢迎
 
-### Get Strat
+### 开始
 
-### Get the source code
+#### 获取源码
 
 {% tabs %}
 {% tab title="Git" %}
@@ -22,13 +22,13 @@ wget https://github.com/Lparksi/Sohn_des_Sterns/archive/main.zip
 {% endtab %}
 {% endtabs %}
 
-### Switch to directory
+#### 切换到项目文件夹
 
 ```bash
 cd Sohn_des_Sterns
 ```
 
-#### Install dependencies
+#### 安装依赖
 
 ```bash
 pip3 install -r requirements.txt
